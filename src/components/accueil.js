@@ -104,8 +104,10 @@ function Accueil() {
                         <a href="#propos"><h5>A propos de moi</h5></a>
                     </div>
                 </div>
-                <div>
-                    <img src="./images/prof.png" alt="" />
+                <div class="position-relative cercle"> 
+                   
+                    <img src="./images/prof.png" alt="" className='profIMage'/>
+                    <img src="./images/circle.png" alt=""  className="circle" />
                 </div>
             </div>
         </div>

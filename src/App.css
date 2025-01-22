@@ -10,6 +10,32 @@
   font-size: 16px;
 }
 
+
+.circle {
+  height: 30vmin;
+  pointer-events: none;
+  margin-top: 150px;
+  margin-left: -400px;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .circle {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
   .loader-container {
   display: flex;
   justify-content: center;
@@ -579,5 +605,11 @@ p {
   justify-content: space-around;
  
 }
+
+.circle {
+  display: none;
+}
+
+
 
 }
