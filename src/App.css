@@ -504,20 +504,25 @@ p {
 
   .presentation img {
    margin-top: -400px;
-   margin-left: 180px;
+   margin-left: 150px;
    width: 200px;
+   z-index: 1;
   
   }
 
   .present h3 {
     font-size: 16px; /* Ajuste la taille des titres */
     margin-left: -10px;
+    z-index: 2;
+    position: relative;
   }
 
   .present h5 {
-    font-size: 12px; /* Ajuste la taille des sous-titres */
-    z-index: 99;
+    font-size: 13px; /* Ajuste la taille des sous-titres */
+   text-align: justify;
     margin-left: -10px;
+    z-index: 2;
+    position: relative;
   }
 
   .presentButton {
