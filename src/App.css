@@ -421,7 +421,7 @@ p {
   
 
   .contact{
-    width: 75%;
+    width: 90%;
     height: 850px;
     background-color: #142EB5;
     margin: 40px auto;
@@ -477,26 +477,28 @@ p {
   }
 
   .presentation img {
-   margin-top: -350px;
-   margin-left: 220px;
+   margin-top: -400px;
+   margin-left: 180px;
    width: 200px;
   
   }
 
   .present h3 {
     font-size: 16px; /* Ajuste la taille des titres */
-    z-index: 99;
+    margin-left: -10px;
   }
 
   .present h5 {
     font-size: 12px; /* Ajuste la taille des sous-titres */
     z-index: 99;
+    margin-left: -10px;
   }
 
   .presentButton {
     margin-top: 15px;
     flex-direction: row;
     gap: 20px;
+    margin-left: -10px;
   }
 
 
@@ -507,17 +509,17 @@ p {
   }
 
   .meContact{
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .presentButton h5 {
-    font-size: 13px;
+    font-size: 12px;
     margin-left: 0; /* Centre le texte */
   }
 
  
   .menuH{
-    margin-left: -70px;
+    margin-left: -50px;
   }
   
 
@@ -571,4 +573,11 @@ p {
 .row p{
  font-size: 13px;
 }
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
 }
