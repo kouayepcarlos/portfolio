@@ -428,7 +428,7 @@ p {
 
   .propos{
     width: 97%;
-    height: 770px;
+    height: 800px;
     background-color: #fef9f3;
     margin-bottom: 0px;
     opacity: 5;
@@ -498,16 +498,22 @@ p {
 
   .present {
     flex: 1; /* Permet à l'élément de prendre l'espace disponible */
-    max-width: 60%; /* Limite la largeur pour éviter que le texte déborde */
+    max-width: 80%; /* Limite la largeur pour éviter que le texte déborde */
     padding: 0 10px; /* Ajoute du padding latéral pour l'espacement */
+    margin-top: 0px;
   }
 
   .presentation img {
-   margin-top: -400px;
+   margin-top: -405px;
    margin-left: 150px;
    width: 200px;
+  
    z-index: 1;
   
+  }
+
+  .design{
+   display: block;
   }
 
   .present h3 {
@@ -523,12 +529,14 @@ p {
     margin-left: -10px;
     z-index: 2;
     position: relative;
+    margin-top: 30px;
   }
 
   .presentButton {
     margin-top: 15px;
     flex-direction: row;
     gap: 20px;
+   
     margin-left: -10px;
   }
 
@@ -540,12 +548,13 @@ p {
   }
 
   .meContact{
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .presentButton h5 {
-    font-size: 12px;
+    font-size: 13px;
     margin-left: 0; /* Centre le texte */
+    margin-top: 0px;
   }
 
  
@@ -557,6 +566,8 @@ p {
   .proposPara p{
     font-size: 13px;
     text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 

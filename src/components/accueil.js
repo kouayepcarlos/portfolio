@@ -97,7 +97,7 @@ function Accueil() {
                 <div className='present'> 
                     <h3>Bonjour je suis,</h3>
                     <h3>Jocelyn Kouayep</h3>
-                    <h3>Développeur fullstack & Designer</h3>
+                    <h3>Développeur fullstack <span className='design'>& Designer</span></h3>
                     <h5>Passionné par la création de solutions numériques innovantes, je suis spécialisé en ReactJs, Symfony et SpringBoot</h5>
                     <div className='presentButton'>
                         <a href="#contact"><Button variant='secondary'><span className='meContact'>Me contacter</span></Button></a>
