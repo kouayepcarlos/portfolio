@@ -1,0 +1,574 @@
+  body{
+    font-family: 'Roboto';
+  }
+
+.title, .desc{
+  text-align: justify;
+}
+
+.desc{
+  font-size: 16px;
+}
+
+  .loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  flex-direction: column;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #ccc;
+  border-top: 5px solid #007bff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  
+}
+
+
+
+
+/* Menu Hamburger */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+/* Menu mobile */
+.mobileMenu {
+  display: none;
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 15px;
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 10;
+  
+}
+
+.mobileMenu a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* Transition for the mobile menu */
+.mobileMenu.open {
+  display: flex;
+  animation: slideDown 0.3s ease forwards;
+}
+
+/* Keyframes */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+
+.footer{
+  width: 100%;
+  height: 80px;
+  background-color: #343C55;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding-top: 20px;
+}
+
+.footer a{
+  color: white;
+  text-decoration: none;
+}
+
+.contact{
+  width: 70%;
+  height: 620px;
+  background-color: #142EB5;
+  margin: 40px auto;
+  border-radius: 20px;
+  color: white;
+  padding: 25px;
+}
+
+.contact p{
+  margin-bottom: 50px;
+}
+
+.contact h2,p{
+  text-align: center;
+}
+
+
+
+.contactBlog{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contactPara{
+  margin-top: 30px;
+}
+.cardBlog{
+  padding: 30px;
+}
+
+.bas{
+  margin-top: -30px;
+  margin-left: 450px;
+}
+
+.skills-container {
+  margin: 20px 0;
+  padding: 40px;
+}
+
+.skill-item {
+  margin-bottom: 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-md-6 {
+  padding: 15px;
+}
+
+.progress-bar {
+  background-color: #007bff; /* Teinte bleue pour les barres de progression */
+}
+
+.progress-bar-striped {
+  background-color: #0069d9; /* Variation de bleu clair pour les barres "stripées" */
+}
+
+.skills-container h2{
+  text-align: center;
+  color: #EF8F0A;
+  font-weight: bold;
+  margin-bottom: 30px;
+  
+}
+
+.skills-container p{
+  text-align: center;
+}
+
+.image-gallery{
+  padding: 25px;
+  margin-bottom: -20px;
+}
+
+.image-gallery h2{
+  text-align: center;
+  color: #EF8F0A;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+.pagination-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #007bff; /* Couleur active pour les pointillés */
+}
+
+.image-item {
+  margin-bottom: 20px;
+ 
+}
+
+.img-fluid {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
+}
+
+.proposH{
+  text-align: center;
+  font-weight: bold;
+  color: #EF8F0A;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  
+}
+.propos{
+  width: 97%;
+  height: 400px;
+  background-color: #fef9f3;
+  margin: 50px auto;
+  opacity: 5;
+}
+
+.bloc{
+  display: flex;
+  justify-content: space-around;
+}
+
+.bloc img{
+  margin-top: -50px;
+  margin-left: -5px;
+}
+
+.proposPara p{
+    text-align: left;
+}
+
+.propos a{
+ display: flex;
+ justify-content: center;
+ margin-top: -50px;
+}
+
+.propos a:hover{
+  text-decoration: none;
+  color: #EF8F0A;
+}
+
+.accueil{
+ height: 400px;
+ padding-top: 30px;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menuLien a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.menuH{
+  color: #fff;
+  font-weight: bold;
+}
+
+.presentation{
+  display: flex;
+  justify-content: space-around;
+}
+
+.present{
+  color: white;
+  padding-left: 100px;
+  margin-top: 20px;
+
+}
+
+.present h3{
+  font-size: 25px;
+  padding-top: 12px;
+}
+
+.present h5{
+  font-size: 20px;
+  padding-top: 12px;
+}
+.presentButton {
+  display: inline-flex;
+  margin-top: 25px;
+
+}
+
+.presentButton h5{
+  margin-left: 30px;
+  margin-top: -5px;
+}
+
+.presentButton a{
+  text-decoration: none;
+  color: white;
+}
+
+
+/* .title{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 50px auto;
+  height: 100vh;
+  
+  font-weight: normal;
+  
+}
+
+.letter{
+  font-size: 15vh;
+  display: inline-block;
+  text-align: center;
+} */
+
+
+
+/* Médias queries pour tablettes */
+@media (max-width: 768px) {
+  .footer {
+    padding-top: 10px;
+  }
+
+  .contact {
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+
+  .skills-container h2 {
+    font-size: 1.4rem;
+  }
+
+  .presentation img {
+    max-width: 80%;
+  }
+}
+
+/* Médias queries pour téléphones */
+@media (max-width: 480px) {
+  .footer {
+    height: auto;
+  }
+
+  .menuLien {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+
+  .bloc{
+    display: inline-block;
+    
+  }
+
+  .propos{
+    width: 97%;
+    height: 770px;
+    background-color: #fef9f3;
+    margin-bottom: 0px;
+    opacity: 5;
+  }
+
+  .propos a{
+   
+    margin-top: 3px;
+   }
+
+  .bloc img{
+   width: 100%;
+   margin-top: -40px;
+   height: 400px;
+  }
+  
+
+  .contact{
+    width: 75%;
+    height: 850px;
+    background-color: #142EB5;
+    margin: 40px auto;
+    border-radius: 20px;
+    color: white;
+    
+  }
+
+  .cardBlog{
+   margin-top: -30px;
+   margin-bottom: 20px;
+   margin-left: 5px;
+  }
+  
+
+  .skills-container h2 {
+    font-size: 1.2rem;
+  }
+
+  .menuLien a {
+    font-size: 0.9rem;
+  }
+  .progress-bar {
+    font-size: 0.8rem;
+  }
+
+
+  .contactBlog{
+    display: inline-block;
+    
+  }
+  
+  .bas{
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  
+
+
+
+
+  .presentation {
+    display: block; /* Conserve la disposition en ligne */
+    flex-wrap: wrap; /* Permet aux éléments de s'adapter si l'espace est insuffisant */
+    padding: 20px; /* Ajoute un padding général */
+    margin-top: -5px;
+  }
+
+  .present {
+    flex: 1; /* Permet à l'élément de prendre l'espace disponible */
+    max-width: 60%; /* Limite la largeur pour éviter que le texte déborde */
+    padding: 0 10px; /* Ajoute du padding latéral pour l'espacement */
+  }
+
+  .presentation img {
+   margin-top: -350px;
+   margin-left: 220px;
+   width: 200px;
+  
+  }
+
+  .present h3 {
+    font-size: 16px; /* Ajuste la taille des titres */
+    z-index: 99;
+  }
+
+  .present h5 {
+    font-size: 12px; /* Ajuste la taille des sous-titres */
+    z-index: 99;
+  }
+
+  .presentButton {
+    margin-top: 15px;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+
+  .presentButton a{
+    text-decoration: none;
+    color: white;
+  
+  }
+
+  .meContact{
+    font-size: 13px;
+  }
+
+  .presentButton h5 {
+    font-size: 13px;
+    margin-left: 0; /* Centre le texte */
+  }
+
+ 
+  .menuH{
+    margin-left: -70px;
+  }
+  
+
+  .proposPara p{
+    font-size: 13px;
+    text-align: justify;
+}
+
+
+.image-gallery h2{
+  font-size: 20px;
+}
+
+.image-gallery p{
+  font-size: 13px;
+}
+
+.compe {
+  font-size: 13px;
+}
+
+.proposH{
+  font-size: 20px;
+}
+
+.title{
+  font-size: 20px;
+  text-align: center;
+}
+  
+.row h2{
+  font-size: 20px;
+  
+}
+.desc{
+  font-size: 13px;
+  text-align: justify;
+}
+.contact h2{
+  font-size: 20px;
+}
+
+.contact p{
+  font-size: 13px;
+}
+
+.footer p{
+  font-size: 13px;
+}
+
+.row p{
+ font-size: 13px;
+}
+}
