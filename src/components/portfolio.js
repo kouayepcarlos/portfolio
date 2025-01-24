@@ -6,10 +6,10 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import ScrollToPlugin from "gsap/ScrollToPlugin";
 
 const images = [
-    { src: './images/img1.png', alt: 'Ingenius-rm : solution pour vos questions d\'immigration', description: 'Nous sommes une Agence qui vous accompagne dans vos projet d\'immigration vers les destinations souhaitez, en vous proposant un suivi personnalisé dans le respect des Lois d\'immigration en vigueur et mettant en priorité votre satisfaction totale', lien: '' },
-    { src: './images/img2.png', alt: 'KrakOs : est le groupe de recherche en virtualisation, Conception d\'OS', description: 'Krakos est le groupe de recherche Virtualisation, Conception d\'OS, Programmation concurrente et distribuée, Programmation distribuée et Middleware pour les infrastructures cloud de l\'Université de Grenoble et l\'un des plus grands groupes du département Informatique de l\'Université de Grenoble', lien: '' },
+    { src: './images/img1.png', alt: 'Ingenius-rm : solution pour vos questions d\'immigration', description: 'Nous sommes une Agence qui vous accompagne dans vos projet d\'immigration vers les destinations souhaitez, en vous proposant un suivi personnalisé dans le respect des Lois d\'immigration en vigueur et mettant en priorité votre satisfaction totale', lien: 'https://www.ingenius-rm.net/' },
+    { src: './images/img2.png', alt: 'KrakOs : est le groupe de recherche en virtualisation, Conception d\'OS', description: 'Krakos est le groupe de recherche Virtualisation, Conception d\'OS, Programmation concurrente et distribuée, Programmation distribuée et Middleware pour les infrastructures cloud de l\'Université de Grenoble et l\'un des plus grands groupes du département Informatique de l\'Université de Grenoble', lien: 'https://lig-krakos.imag.fr/index.html' },
     { src: './images/img3.png', alt: 'Nilservice : Plateforme de prestation de service', description: 'NilService est une plateforme de solutions tout en un qui vous connecte à des professionnels de divers domaines allant des plus minimes services du quotidien aux travaux les plus complexes où que vous soyez en Afrique.', lien : 'nilservice.net' },
-    { src: './images/img5.png', alt: 'LabPress : la presse pour les laboratoire ', description: 'LabPress (presse de laboratoire) est le nom de la société que nous avons créée, proposant des services de communication scientifique (conseil, organisation d\'événements scientifiques, réalisation de magazines, webmastering, gestion des médias sociaux, création de sites Internet, etc.).', lien: '' },
+    { src: './images/img5.png', alt: 'LabPress : la presse pour les laboratoire ', description: 'LabPress (presse de laboratoire) est le nom de la société que nous avons créée, proposant des services de communication scientifique (conseil, organisation d\'événements scientifiques, réalisation de magazines, webmastering, gestion des médias sociaux, création de sites Internet, etc.).', lien: 'http://labpress.scienceontheweb.net/' },
     { src: './images/img6.png', alt: 'Action Burundi ', description: 'Dans le souci d’exposer les étudiants et professionnels burundais aux technologies de pointe tant au niveau théorique que pratique, nous avons initié l\'école d’été “KWIGA” qui est une école d\'été organisée au Burundi, dont la première édition s’est tenue du 14 au 20 septembre 2023 à Bujumbura. Cette école est à l’initiative du collectif Ubuntu et du Professeur Daniel Hagimont, Professeur à l’Institut National Polytechnique de Toulouse.', lien: 'https://mlns2.github.io/ActionBurundi.io/' },
     { src: './images/img7.png', alt: 'Portfolio @Prof Tchana Alain', description: 'Portfolio @Prof Tchana Alain', lien : 'https://lig-membres.imag.fr/tchanaa/index.html' },
   ];
@@ -109,7 +109,7 @@ function Portfolio() {
           <Modal.Body>
             <img src={currentImage.src} alt={currentImage.alt} className="img-fluid mb-3" />
             <p className='desc'>{currentImage.description}</p>
-            <a href={currentImage.lien}>nilservice.net</a>
+            <a href={currentImage.lien}>{currentImage.lien}</a>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleCloseModal}>
