@@ -39,11 +39,11 @@ function Comptence() {
 
 
     const skills = [
-        { name: 'Javascript, Html, Css, Bootstrap', level: 95 },
+        { name: 'Javascript, Html, Css, Bootstrap, WordPress, SEO', level: 95 },
         { name: 'Symfony, Laravel, PHP', level: 65 },
         { name: 'ReactJs , Java,  SpringBoot',  level: 70 },
         { name: 'Flutter, Dart',  level: 60 },
-        { name: 'Github, Gitlab CI/CD, Docker, Sql', level: 80 },
+        { name: 'Github, Gitlab CI/CD, Docker, Sql, Scrum Master', level: 80 },
         { name: 'TDD, BDD', level: 75 },
       ];
     
