@@ -45,8 +45,8 @@ function Propos() {
                 <img src="./images/profil.png" alt="" />
                 <div className="proposPara">
                     <p>Hello ! , dévéloppeur Web Full stack & Design, Fort de plusieurs expériences enrichissantes</p>
-                    <p>J'ai eu l opportunité de travailler  au sein de structures variées telles que Trampoline Park, LIG, Ingenuis-RM et
-                    Orange. </p>
+                    <p>J'ai eu l opportunité de travailler  au sein de structures variées telles que <b>Trampoline Park, LIG, Ingenuis-RM</b> et
+                    <b>Orange.</b> </p>
                     <p>Ces stages m ont permis de développer une expertise solide en développement fullstack, marketing et en design, tout en m adaptant à des environnements de travail divers et exigeants.</p>
                     <p>Je suis convaincu que mon expérience peut aider les entreprises à atteindre leurs objectifs. N’hésitez pas à me contacter pour discuter de vos projets ainsi que leur mise en œuvre.</p>
                 
