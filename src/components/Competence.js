@@ -43,7 +43,7 @@ function Comptence() {
         { name: 'Symfony, Laravel, PHP', level: 65 },
         { name: 'ReactJs , Java,  SpringBoot',  level: 70 },
         { name: 'Flutter, Dart',  level: 60 },
-        { name: 'Github, Gitlab CI/CD, Docker, Ansible, Terraform,  Sql, Scrum Master', level: 80 },
+        { name: 'Github, Gitlab CI/CD, Docker, Ansible, Kubernetes, Sql, Scrum Master', level: 80 },
         { name: 'TDD, BDD', level: 75 },
       ];
     
